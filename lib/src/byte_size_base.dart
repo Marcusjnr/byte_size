@@ -41,7 +41,6 @@ class ArgumentNullException implements Exception {
 /// var size = new ByteSize(1024);
 /// ```
 class ByteSize implements Comparable {
-  //static const int _Int64MaxValue = 9223372036854775807;
   static const int _BitsInByte = 8;
   static const int _BytesInKiloByte = 1024;
   static const int _BytesInMegaByte = 1048576;
